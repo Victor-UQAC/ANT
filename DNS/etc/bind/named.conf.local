@@ -10,3 +10,9 @@ zone "ANT.local" IN {
         type master;
         file "/etc/bind/db.ANT.local";
 };
+
+zone "1.168.192.in-addr.arpa" {
+        type master;
+        notify no;
+        file "/etc/bind/db.192";
+};
