@@ -10,5 +10,4 @@ $TTL    604800
                          604800 )       ; Negative Cache TTL
 ;
 @       IN      NS      ns.ANT.local.
-NS      IN      A       10.10.10.10
-box     IN      A       192.168.1.138
+NS      IN      A       10.8.128.231
