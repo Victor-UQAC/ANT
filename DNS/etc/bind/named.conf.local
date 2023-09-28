@@ -6,13 +6,7 @@
 // organization
 //include "/etc/bind/zones.rfc1918";
 
-zone "ubuntu-fr.lan" IN {
+zone "ANT.local" IN {
         type master;
-        file "/etc/bind/db.ubuntu-fr.lan";
-};
-
-zone "1.168.192.in-addr.arpa" {
-        type master;
-        notify no;
-        file "/etc/bind/db.192";
+        file "/etc/bind/db.ANT.local";
 };
