@@ -6,7 +6,7 @@
 // organization
 //include "/etc/bind/zones.rfc1918";
 
-zone "ANT.local" IN {
+zone "ant.local" IN {
         type master;
         file "/etc/bind/db.ANT.local";
 };
