@@ -12,5 +12,5 @@ $TTL    604800
 @       IN      NS      ns.ant.local.
 @       IN      A       10.8.128.154
 ns      IN      A       10.8.128.154
-ns      IN      A       10.8.128.149
+static  IN      A       10.8.128.149
 test    IN      A       123.123.123.123
