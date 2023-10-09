@@ -2,12 +2,14 @@
 ; BIND data file for local loopback interface
 ;
 $TTL    604800
-@       IN      SOA     ns.ANT.local. admin.ANT.local. (
-                      202309281         ; Serial
+@       IN      SOA     ant.local. root.ant.local. (
+                      202309282         ; Serial
                          604800         ; Refresh
                           86400         ; Retry
                         2419200         ; Expire
                          604800 )       ; Negative Cache TTL
 ;
-@       IN      NS      ns.ANT.local.
-NS      IN      A       10.8.128.231
+@       IN      NS      ns.ant.local.
+@       IN      A       10.8.128.154
+ns      IN      A       10.8.128.154
+test    IN      A       123.123.123.123
