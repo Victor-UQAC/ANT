@@ -14,7 +14,7 @@ $TTL    604800
 ns              IN      A       10.8.128.159
 static          IN      A       10.8.128.56
 zabbix          IN      A       10.8.128.175
-rprox           IN      A       10.8.128.87
+rprox           IN      A       10.8.128.180
 cachefrontal    IN      A       10.8.128.245
 phpload         IN      A       10.8.128.224
 php1            IN      A       10.8.128.145
