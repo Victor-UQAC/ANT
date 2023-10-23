@@ -18,7 +18,7 @@ rprox           IN      A       10.8.128.180
 cachefrontal    IN      A       10.8.128.245
 phpload         IN      A       10.8.128.224
 php1            IN      A       10.8.128.91
-php2            IN      A       10.8.128.65
+php2            IN      A       10.8.128.54
 nfs             IN      A       10.8.128.84
 mariaload       IN      A       10.8.128.49
 mongoload       IN      A       10.8.128.36
