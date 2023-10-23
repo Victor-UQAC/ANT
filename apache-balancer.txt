@@ -1,0 +1,11 @@
+<VirtualHost *:80>
+    ServerName loadbalancer.local
+    
+    ProxyPass / balancer://mycluster/
+    ProxyPassReverse / balancer://mycluster/
+
+    <Proxy balancer://mycluster>
+        BalancerMember http://php1.ant.local
+        BalancerMember http://php2.ant.local
+    </Proxy>
+</VirtualHost>
