@@ -24,6 +24,6 @@ mariaload       IN      A       10.8.128.49
 mongoload       IN      A       10.8.128.36
 maria1          IN      A       10.8.128.71
 maria2          IN      A       10.8.128.27
-mongo1          IN      A       10.8.128.58
-mongo2          IN      A       10.8.128.45
+mongo1          IN      A       10.8.128.75
+mongo2          IN      A       10.8.128.233
 site            IN      A       10.8.128.245
