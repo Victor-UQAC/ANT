@@ -3,27 +3,27 @@
 ;
 $TTL    604800
 @       IN      SOA     ant.local. root.ant.local. (
-                      202310106         ; Serial
+                      202310231         ; Serial
                          604800         ; Refresh
                           86400         ; Retry
                         2419200         ; Expire
                          604800 )       ; Negative Cache TTL
 ;
 @               IN      NS      ns.ant.local.
-@               IN      A       10.8.128.154
-ns              IN      A       10.8.128.154
-static          IN      A       10.8.128.149
-zabbix          IN      A       10.8.128.30
+@               IN      A       10.8.128.159
+ns              IN      A       10.8.128.159
+static          IN      A       10.8.128.56
+zabbix          IN      A       10.8.128.175
 rprox           IN      A       10.8.128.87
 cachefrontal    IN      A       10.8.128.245
 phpload         IN      A       10.8.128.224
-php1            IN      A       10.8.128.14
+php1            IN      A       10.8.128.145
 php2            IN      A       10.8.128.65
-pfsense         IN      A       10.8.128.117
+nfs             IN      A       10.8.128.84
 mariaload       IN      A       10.8.128.49
-mongoload       IN      A       10.8.128.136
-maria1          IN      A       10.8.128.74
-maria2          IN      A       10.8.128.183
+mongoload       IN      A       10.8.128.36
+maria1          IN      A       10.8.128.71
+maria2          IN      A       10.8.128.27
 mongo1          IN      A       10.8.128.58
 mongo2          IN      A       10.8.128.45
 site            IN      A       10.8.128.245
