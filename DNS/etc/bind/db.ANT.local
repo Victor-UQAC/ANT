@@ -3,7 +3,7 @@
 ;
 $TTL    604800
 @       IN      SOA     ant.local. root.ant.local. (
-                      202310231         ; Serial
+                      202310261         ; Serial
                          604800         ; Refresh
                           86400         ; Retry
                         2419200         ; Expire
@@ -26,4 +26,4 @@ maria1          IN      A       10.8.128.71
 maria2          IN      A       10.8.128.27
 mongo1          IN      A       10.8.128.75
 mongo2          IN      A       10.8.128.233
-site            IN      A       10.8.128.245
+site            IN      A       99.99.99.99
