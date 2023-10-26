@@ -10,9 +10,9 @@ $TTL    604800
                          604800 )       ; Negative Cache TTL
 ;
 @               IN      NS      ns.ant.local.
-@               IN      A       10.8.128.159
-ns              IN      A       10.8.128.159
-static          IN      A       10.8.128.56
+@               IN      A       10.8.128.107
+ns              IN      A       10.8.128.107
+static          IN      A       10.8.128.170
 zabbix          IN      A       10.8.128.175
 rprox           IN      A       10.8.128.180
 cachefrontal    IN      A       10.8.128.102
